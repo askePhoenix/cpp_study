@@ -1,8 +1,14 @@
-// chap.1-3
+// chap.1-5 분기문
 #include <iostream>
+
 using namespace std;
+
 int main() {
-    char name[10] = "kimkimkim";
-    cout << name << endl;
+    int number;
+    cin >> number;
+
+    if (number % 2 == 0) {
+        cout << to_string(number) + "는 짝수입니다." << endl;
+    }
     return 0;
 }
