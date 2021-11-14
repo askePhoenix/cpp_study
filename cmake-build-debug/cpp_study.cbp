@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kimjooyoun/CLionProjects/cpp_study/common.cpp">
+			<Option target="cpp_study"/>
+		</Unit>
+		<Unit filename="/Users/kimjooyoun/CLionProjects/cpp_study/common.h">
+			<Option target="cpp_study"/>
+		</Unit>
 		<Unit filename="/Users/kimjooyoun/CLionProjects/cpp_study/main.cpp">
 			<Option target="cpp_study"/>
 		</Unit>

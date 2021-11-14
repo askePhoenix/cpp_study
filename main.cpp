@@ -1,15 +1,15 @@
-// chap.4-3 포인터
+// chap.4-3 포인터 -> swap
 #include <iostream>
+#include "common.h"
 using namespace std;
 
-int main() {
-    int x = 10;
-    int* x_ptr;
-    x_ptr = &x;
 
-    cout << "X값:" << x << endl;
-    cout << "X_ptr:" << x_ptr << endl;
-    cout << "X_ptr ->:" << *x_ptr << endl;
+int main() {
+    int x = 999;
+    int y = 1313;
+
+    swap(&x, &y);
+    cout << x << " / " << y << endl;
 
     return 0;
 }

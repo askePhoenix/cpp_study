@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimjooyoun/CLionProjects/cpp_study/main.cpp
-iostream
--
+/Users/kimjooyoun/CLionProjects/cpp_study/common.cpp
+common.h
+/Users/kimjooyoun/CLionProjects/cpp_study/common.h
+
+/Users/kimjooyoun/CLionProjects/cpp_study/common.h
 
