@@ -129,29 +129,29 @@ cpp_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/build
 .PHONY : cpp_study/fast
 
-calc9.o: calc9.cpp.o
-.PHONY : calc9.o
+common.o: common.cpp.o
+.PHONY : common.o
 
 # target to build an object file
-calc9.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.o
-.PHONY : calc9.cpp.o
+common.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/common.cpp.o
+.PHONY : common.cpp.o
 
-calc9.i: calc9.cpp.i
-.PHONY : calc9.i
+common.i: common.cpp.i
+.PHONY : common.i
 
 # target to preprocess a source file
-calc9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.i
-.PHONY : calc9.cpp.i
+common.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/common.cpp.i
+.PHONY : common.cpp.i
 
-calc9.s: calc9.cpp.s
-.PHONY : calc9.s
+common.s: common.cpp.s
+.PHONY : common.s
 
 # target to generate assembly for a file
-calc9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.s
-.PHONY : calc9.cpp.s
+common.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/common.cpp.s
+.PHONY : common.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_study"
-	@echo "... calc9.o"
-	@echo "... calc9.i"
-	@echo "... calc9.s"
+	@echo "... common.o"
+	@echo "... common.i"
+	@echo "... common.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

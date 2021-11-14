@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimjooyoun/CLionProjects/cpp_study/calc9.cpp
-calc9.h
-/Users/kimjooyoun/CLionProjects/cpp_study/calc9.h
+/Users/kimjooyoun/CLionProjects/cpp_study/common.cpp
+common.h
+/Users/kimjooyoun/CLionProjects/cpp_study/common.h
 
-/Users/kimjooyoun/CLionProjects/cpp_study/calc9.h
-
-/Users/kimjooyoun/CLionProjects/cpp_study/main.cpp
-iostream
--
-calc9.h
-/Users/kimjooyoun/CLionProjects/cpp_study/calc9.h
+/Users/kimjooyoun/CLionProjects/cpp_study/common.h
 

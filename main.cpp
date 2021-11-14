@@ -1,26 +1,15 @@
-// chap.2-advance head, cpp 분리
+// chap.4-3 포인터 -> swap
 #include <iostream>
-#include "calc9.h"
+#include "common.h"
 using namespace std;
 
 
-int intPlus(int x, int y);
-float intPlus(float x, float y);
-
 int main() {
-    int k = intPlus(99, 101);
-    int i = intPlus(99.9f, 101.2f);
-    cout << k << endl;
-    cout << (float)i << endl;
+    int x = 999;
+    int y = 1313;
 
-    cout << plus_9(13,24) << endl;
+    swap(&x, &y);
+    cout << x << " / " << y << endl;
+
     return 0;
-}
-
-int intPlus(int x, int y){
-    return x+y;
-}
-
-float intPlus(float x, float y){
-    return x + y;
 }

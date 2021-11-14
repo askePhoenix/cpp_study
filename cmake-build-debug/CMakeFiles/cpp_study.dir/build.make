@@ -79,29 +79,29 @@ CMakeFiles/cpp_study.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_study.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kimjooyoun/CLionProjects/cpp_study/main.cpp -o CMakeFiles/cpp_study.dir/main.cpp.s
 
-CMakeFiles/cpp_study.dir/calc9.cpp.o: CMakeFiles/cpp_study.dir/flags.make
-CMakeFiles/cpp_study.dir/calc9.cpp.o: ../calc9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_study.dir/calc9.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_study.dir/calc9.cpp.o -c /Users/kimjooyoun/CLionProjects/cpp_study/calc9.cpp
+CMakeFiles/cpp_study.dir/common.cpp.o: CMakeFiles/cpp_study.dir/flags.make
+CMakeFiles/cpp_study.dir/common.cpp.o: ../common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_study.dir/common.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_study.dir/common.cpp.o -c /Users/kimjooyoun/CLionProjects/cpp_study/common.cpp
 
-CMakeFiles/cpp_study.dir/calc9.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_study.dir/calc9.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kimjooyoun/CLionProjects/cpp_study/calc9.cpp > CMakeFiles/cpp_study.dir/calc9.cpp.i
+CMakeFiles/cpp_study.dir/common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_study.dir/common.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kimjooyoun/CLionProjects/cpp_study/common.cpp > CMakeFiles/cpp_study.dir/common.cpp.i
 
-CMakeFiles/cpp_study.dir/calc9.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_study.dir/calc9.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kimjooyoun/CLionProjects/cpp_study/calc9.cpp -o CMakeFiles/cpp_study.dir/calc9.cpp.s
+CMakeFiles/cpp_study.dir/common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_study.dir/common.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kimjooyoun/CLionProjects/cpp_study/common.cpp -o CMakeFiles/cpp_study.dir/common.cpp.s
 
 # Object files for target cpp_study
 cpp_study_OBJECTS = \
 "CMakeFiles/cpp_study.dir/main.cpp.o" \
-"CMakeFiles/cpp_study.dir/calc9.cpp.o"
+"CMakeFiles/cpp_study.dir/common.cpp.o"
 
 # External object files for target cpp_study
 cpp_study_EXTERNAL_OBJECTS =
 
 cpp_study: CMakeFiles/cpp_study.dir/main.cpp.o
-cpp_study: CMakeFiles/cpp_study.dir/calc9.cpp.o
+cpp_study: CMakeFiles/cpp_study.dir/common.cpp.o
 cpp_study: CMakeFiles/cpp_study.dir/build.make
 cpp_study: CMakeFiles/cpp_study.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp_study"
