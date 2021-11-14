@@ -16,5 +16,4 @@ int main() {
     stu.age = 30;
 
     cout << stu.name << " ";
-체p
 }
