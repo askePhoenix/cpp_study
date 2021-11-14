@@ -1,10 +1,14 @@
-// 심화 객체 접근 한정자
+// 심화 객체 접근 한정자 -> Character
 #include <iostream>
 #include "common.h"
 
 using namespace std;
 
 class Character {
+public:
+    Character();
+    explicit Character(int hp);
+
 public:
     int getHp() const;
 
@@ -26,15 +30,27 @@ private:
 public:
 
     void move(int dir);
+
     void jump();
+
     void hit();
 
     void speedUp();
+
     void obtainItem();
 };
+Character::Character(int _hp){
+    hp = _hp;
+}
+Character::Character(){
+    hp = 100;
+}
+
+
 void Character::speedUp() {
     speed++;
 }
+
 void Character::obtainItem() {
     speedUp();
 }
@@ -78,11 +94,16 @@ void Character::hit() {
 int main() {
     Character mario;
     mario.setName("super Mario");
-    mario.setHp(100);
     mario.obtainItem();
 
     cout << mario.getHp() << endl;
     cout << mario.getName() << endl;
+
+    Character timo = Character(10);
+    timo.setName("timo");
+
+    cout << timo.getHp() << endl;
+    cout << timo.getName() << endl;
 
 
     return 0;
