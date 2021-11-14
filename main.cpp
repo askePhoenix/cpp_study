@@ -1,26 +1,20 @@
-// chap.2-advance head, cpp 분리
+// chap.4 구조체
 #include <iostream>
-#include "calc9.h"
 using namespace std;
 
-
-int intPlus(int x, int y);
-float intPlus(float x, float y);
+struct Student{
+    string name;
+    int number;
+    int age;
+};
 
 int main() {
-    int k = intPlus(99, 101);
-    int i = intPlus(99.9f, 101.2f);
-    cout << k << endl;
-    cout << (float)i << endl;
+    Student stu;
 
-    cout << plus_9(13,24) << endl;
-    return 0;
-}
+    stu.name = "철수 킴";
+    stu.number = 90;
+    stu.age = 30;
 
-int intPlus(int x, int y){
-    return x+y;
-}
-
-float intPlus(float x, float y){
-    return x + y;
+    cout << stu.name << " ";
+체p
 }

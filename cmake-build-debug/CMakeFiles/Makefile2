@@ -81,12 +81,12 @@ clean: CMakeFiles/cpp_study.dir/clean
 CMakeFiles/cpp_study.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cpp_study"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp_study"
 .PHONY : CMakeFiles/cpp_study.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_study.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_study.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kimjooyoun/CLionProjects/cpp_study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cpp_study.dir/rule

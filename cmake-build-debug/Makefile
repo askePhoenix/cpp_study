@@ -129,30 +129,6 @@ cpp_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/build
 .PHONY : cpp_study/fast
 
-calc9.o: calc9.cpp.o
-.PHONY : calc9.o
-
-# target to build an object file
-calc9.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.o
-.PHONY : calc9.cpp.o
-
-calc9.i: calc9.cpp.i
-.PHONY : calc9.i
-
-# target to preprocess a source file
-calc9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.i
-.PHONY : calc9.cpp.i
-
-calc9.s: calc9.cpp.s
-.PHONY : calc9.s
-
-# target to generate assembly for a file
-calc9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/calc9.cpp.s
-.PHONY : calc9.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_study"
-	@echo "... calc9.o"
-	@echo "... calc9.i"
-	@echo "... calc9.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
