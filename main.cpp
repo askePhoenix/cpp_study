@@ -1,19 +1,15 @@
-// chap.4-2 배열과 다중 배열
+// chap.4-3 포인터
 #include <iostream>
 using namespace std;
 
-struct Student{
-    string name;
-    int number;
-    int age;
-};
-
 int main() {
-    Student stu [10];
+    int x = 10;
+    int* x_ptr;
+    x_ptr = &x;
 
-    stu[0].name = "철수 킴";
-    stu[0].number = 90;
-    stu[0].age = 30;
+    cout << "X값:" << x << endl;
+    cout << "X_ptr:" << x_ptr << endl;
+    cout << "X_ptr ->:" << *x_ptr << endl;
 
-    cout << stu[0].name << " ";
+    return 0;
 }
