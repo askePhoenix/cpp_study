@@ -1,4 +1,4 @@
-// 심화 객체 접근 한정자 -> Character
+// 심화 객체 접근 한정자 -> Character -> this pointer
 #include <iostream>
 #include "common.h"
 
@@ -60,7 +60,7 @@ int Character::getHp() const {
 }
 
 void Character::setHp(int hp) {
-    Character::hp = hp;
+    this -> hp = hp;
 }
 
 int Character::getSpeed() const {
@@ -68,7 +68,7 @@ int Character::getSpeed() const {
 }
 
 void Character::setSpeed(int speed) {
-    Character::speed = speed;
+    this -> speed = speed;
 }
 
 const string &Character::getName() const {
@@ -76,7 +76,7 @@ const string &Character::getName() const {
 }
 
 void Character::setName(const string &name) {
-    Character::name = name;
+    this -> name = name;
 }
 
 void Character::jump() {
