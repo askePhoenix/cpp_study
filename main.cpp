@@ -1,4 +1,4 @@
-// 심화 : class 파일로 분리
+// 심화 : class 파일로 분리 -> free Character
 #include <iostream>
 #include "common.h"
 #include "Character.h"

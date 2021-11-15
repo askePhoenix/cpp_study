@@ -13,6 +13,7 @@ public:
     Character();
 
     explicit Character(int hp);
+    ~Character();
 
 public:
     int getHp() const;

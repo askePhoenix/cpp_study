@@ -56,3 +56,7 @@ void Character::move(int dir) {
 void Character::hit() {
 
 }
+
+Character::~Character() {
+    cout << "Character 삭제됩니다." << endl;
+}
