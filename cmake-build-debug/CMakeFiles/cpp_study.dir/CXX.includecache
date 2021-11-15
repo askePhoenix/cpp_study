@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimjooyoun/CLionProjects/cpp_study/common.cpp
-common.h
-/Users/kimjooyoun/CLionProjects/cpp_study/common.h
+/Users/kimjooyoun/CLionProjects/cpp_study/Character.cpp
+Character.h
+/Users/kimjooyoun/CLionProjects/cpp_study/Character.h
+
+/Users/kimjooyoun/CLionProjects/cpp_study/Character.h
+iostream
+-
 
 /Users/kimjooyoun/CLionProjects/cpp_study/common.h
+
+/Users/kimjooyoun/CLionProjects/cpp_study/main.cpp
+iostream
+-
+common.h
+/Users/kimjooyoun/CLionProjects/cpp_study/common.h
+Character.h
+/Users/kimjooyoun/CLionProjects/cpp_study/Character.h
 
